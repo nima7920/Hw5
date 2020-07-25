@@ -76,8 +76,6 @@ public class GameScreen {
 
     public void gotoInfoMenu() {
         frame.getContentPane().removeAll();
-
-        frame.setResizable(false);
         if (infoMenu == null)
             infoMenu = new InfoMenu(clientModerator);
 
