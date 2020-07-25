@@ -17,7 +17,7 @@ public class LoginMenu extends GameMenu {
     public LoginMenu(ClientModerator clientModerator) {
         this.clientModerator = clientModerator;
         // setting buttons:
-        configLoader = new ConfigLoader("src\\main\\java\\client\\configs\\loginMenu.properties");
+        configLoader = new ConfigLoader(".src/main/java/client/configs/loginMenu.properties");
         actions = new Actions();
         initMenu();
     }

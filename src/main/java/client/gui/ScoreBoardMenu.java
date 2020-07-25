@@ -21,7 +21,7 @@ public class ScoreBoardMenu extends GameMenu {
     public ScoreBoardMenu(ClientModerator clientModerator) {
         this.clientModerator = clientModerator;
         actions = new Actions();
-        configLoader = new ConfigLoader("src\\main\\java\\client\\configs\\scoreBoardMenu.properties");
+        configLoader = new ConfigLoader(".src/main/java/client/configs/scoreBoardMenu.properties");
         initMenu();
     }
 

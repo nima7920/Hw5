@@ -18,7 +18,7 @@ public class MainMenu extends GameMenu {
     public MainMenu(ClientModerator clientModerator) {
         this.clientModerator = clientModerator;
         actions = new Actions();
-        configLoader = new ConfigLoader("src\\main\\java\\client\\configs\\mainMenu.properties");
+        configLoader = new ConfigLoader(".src/main/java/client/configs/mainMenu.properties");
         initMenu();
     }
 
