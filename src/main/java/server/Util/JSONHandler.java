@@ -14,8 +14,8 @@ import java.util.Collections;
 
 public class JSONHandler {
 
-    private String profilesPath = ".src/main/java/server/profiles";
-    private String scoreBoardPath = ".src/main/java/server/ScoreBoard.JSON";
+    private String profilesPath = "src//main//java//server//profiles";
+    private String scoreBoardPath = "src//main//java//server//ScoreBoard.JSON";
 
     private GsonBuilder gsonBuilder = new GsonBuilder().excludeFieldsWithoutExposeAnnotation();
     private File profilesFolder;

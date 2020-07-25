@@ -17,7 +17,7 @@ public class PlayMenu extends GameMenu {
     public PlayMenu(ClientModerator clientModerator) {
         this.clientModerator = clientModerator;
         this.actions = new Actions();
-        configLoader = new ConfigLoader(".src/main/java/client/configs/playMenu.properties");
+        configLoader = new ConfigLoader("src//main//java//client//configs//playMenu.properties");
         initMenu();
     }
 

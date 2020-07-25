@@ -18,7 +18,7 @@ public class InfoMenu extends GameMenu {
     public InfoMenu(ClientModerator clientModerator) {
         this.clientModerator = clientModerator;
         actions = new Actions();
-        configLoader = new ConfigLoader(".src/main/java/client/configs/infoMenu.properties");
+        configLoader = new ConfigLoader("src//main//java//client//configs//infoMenu.properties");
         initMenu();
     }
 

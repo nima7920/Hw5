@@ -165,8 +165,8 @@ public class ClientModerator extends Thread {
     }
 
     public void gotoScoreBoardRequest() {
-        out.println(authToken + ":score board");
         gameScreen.gotoScoreBoardMenu();
+        out.println(authToken + ":score board");
     }
 
     public void gotoInfoRequest() {
